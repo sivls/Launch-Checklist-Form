@@ -7,11 +7,12 @@
     </head>
     <body>
         <h1>Launch Checklist Form</h1>
+        <button id="planet-select">Select Planet</button>
         <div id="missionTarget">
             <!-- Fetch some planetary data -->
         </div> 
         <div id="launchForm">
-            <form>
+            <form method="GET" action="https://handlers.education.launchcode.org/request-parrot">
                 <div style="display:flex; flex-direction: row; justify-content: center; align-items: center; margin: 8 0;">
                     <label>Pilot Name <input type="text" name="pilotName" id="pilotName"/></label>
                 </div>
